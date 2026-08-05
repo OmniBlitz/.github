@@ -1,10 +1,56 @@
 {
+  "$schema": "./repository-relationships.schema.json",
+  "audience": "public",
+  "generated": {
+    "complete_for_visibility": "public",
+    "generated_at": "2026-08-05T21:02:21Z",
+    "generator_version": "2026-08-04.1",
+    "inventory_digest": "sha256:9431b9145e81c4910173e14e20acc11624531b524aa960f904e5ab836376a39d",
+    "managed_by": "ore-repository-relationship-rollout",
+    "omitted_repository_count": 0,
+    "private_repositories_omitted": false,
+    "source": "GitHub GraphQL repository inventory plus reviewed manual declarations"
+  },
+  "owner": {
+    "account_type": "organization",
+    "dotgithub_repository": "OmniBlitz/.github",
+    "github_id": "311152709",
+    "linear_project": {
+      "id": "179cf0a3-8865-4d3d-9f33-11ebf2b8534e",
+      "name": "github.com/OmniBlitz",
+      "team_id": "eb8ab169-5afe-4b6f-9cab-3f2aa3e887dc",
+      "url": "https://linear.app/denman/project/githubcomomniblitz-b6c7bba447b0",
+      "workspace": "denman"
+    },
+    "login": "OmniBlitz",
+    "mapping_id": "context:omniblitz"
+  },
+  "private_registry": {
+    "contains_non_public_inventory": false,
+    "digest": "sha256:339c419f3cbd18adc106a925a74137727aa7b0f74351de462364dd12cbad7ef6",
+    "path": "owners/OmniBlitz.json",
+    "repository": "ORESoftware/project-registry"
+  },
+  "relationships": [],
+  "repositories": [
+    {
+      "archived": false,
+      "default_branch": "main",
+      "fork": false,
+      "full_name": "OmniBlitz/.github",
+      "github_id": "1324046351",
+      "name": ".github",
+      "owner": "OmniBlitz",
+      "roles": [
+        "community-health",
+        "governance",
+        "relationship-registry"
+      ],
+      "source": "github-graphql-api",
+      "url": "https://github.com/OmniBlitz/.github",
+      "visibility": "public"
+    }
+  ],
   "schema_version": 1,
-  "organization": "OmniBlitz",
-  "generated_at": null,
-  "repositories": [],
-  "notes": [
-    "Populate from live GitHub inventory; do not infer unverified dependencies.",
-    "Repository-local manifests remain authoritative for exact dependency versions."
-  ]
+  "unresolved_hints": []
 }
