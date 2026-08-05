@@ -29,7 +29,7 @@
     "contains_non_public_inventory": false,
     "digest": "sha256:339c419f3cbd18adc106a925a74137727aa7b0f74351de462364dd12cbad7ef6",
     "path": "owners/OmniBlitz.json",
-    "repository": "ORESoftware/project-registry"
+    "repository": "approved-private-registry"
   },
   "relationships": [],
   "repositories": [
