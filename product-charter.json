@@ -1,0 +1,47 @@
+{
+  "$schema": "./product-charter.schema.json",
+  "schema_version": 1,
+  "organization": "OmniBlitz",
+  "status": "unresolved",
+  "canonical_linear_project": "github.com/OmniBlitz",
+  "decision_issue": "DEN-1866",
+  "approved_repositories": [
+    "OmniBlitz/.github"
+  ],
+  "product_definition": null,
+  "target_users": [],
+  "workflows": [],
+  "measurable_outcomes": [],
+  "vertical_slices": [],
+  "security": {
+    "data_classes": [],
+    "identity_and_authorization": [],
+    "external_integrations": [],
+    "trust_boundaries": [],
+    "retention_and_privacy": [],
+    "abuse_cases": [],
+    "prohibited_uses": []
+  },
+  "architecture": {
+    "runtime_shape": null,
+    "interface_strategy": null,
+    "persistence_model": null,
+    "observability_baseline": null,
+    "offline_or_background_requirements": null
+  },
+  "prohibited_assumptions": [
+    "Do not infer a product domain from the OmniBlitz brand name.",
+    "Do not create application, service, client, data, or infrastructure repositories before this charter is approved.",
+    "Do not treat similarity to HypeSiege, StreemPilot, or another portfolio project as evidence of shared release ownership."
+  ],
+  "evidence": {
+    "reviewed_sources": [],
+    "required_before_approval": [
+      "named real users and concrete workflows",
+      "measurable outcomes and explicit non-goals",
+      "security, privacy, abuse, and prohibited-use boundaries",
+      "two independently verifiable vertical slices",
+      "an approved minimal repository map derived from those slices"
+    ]
+  }
+}
